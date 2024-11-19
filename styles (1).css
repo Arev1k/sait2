@@ -1,0 +1,340 @@
+body {
+    color: black;
+}
+#menu {
+    display: flex;
+}
+#menu2 a {
+    margin-left: 1400px;
+    padding-right: 30px;
+    padding: 10px 10px;
+    margin: 20px 0 0 0;
+    top: 60px;
+    right: 140px;
+    position: absolute;
+    font: 19px Arial;
+    text-decoration: none;
+    color: #ff0000;
+    border: 3px solid #ff0000;
+    background-color: rgb(0, 0, 0);
+}
+#menu a {
+    width: calc(100% - 20px);
+    padding: 24px;
+    font: 19px Arial;
+    text-align: center;
+    text-decoration: none;
+    color: #ff0000;
+    border: 3px solid #ff0000;
+    background-color: rgb(0, 0, 0);
+}
+#menu a:hover,
+#menu a.active {
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #ff0000;
+    transform: scale(1.01);
+
+}
+p {
+    color: white;
+    text-align: justify;
+    font-size: 35px;
+}
+#gg {
+    float: left;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex; /* Используем Flexbox для горизонтального расположения */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    padding-left: 20px; /* Отступ от левого края */
+    text-align: justify;
+}
+
+.image-left {
+    max-height: 1500px;
+    max-width: 1500px; /* Ограничение ширины изображения *//* Автоматическая высота для сохранения пропорций */; /* Отступ между изображением и текстом */
+    margin-right: 10px; /* Отступ между изображением и текстом */
+    margin-top: 34px;
+}
+
+.text-right {
+    background: linear-gradient(to bottom, black, rgb(110, 109, 109));
+    max-width: 960px; /* Максимальная ширина блока с текстом */
+    height: 850px;
+}
+.absolute-right-image {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 60px; /* Отступ сверху */
+    right: 70px; /* Отступ справа */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.image-container {
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+    width: 100%; /* Ширина контейнера */
+    height: 200%; /* Высота контейнера */
+}
+
+.outer-image {
+    width: 100%; /* Ширина внешнего изображения 100% от контейнера */
+    height: 800px; /* Автоматическая высота для сохранения пропорций */
+}
+.card {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 1625px;
+    top: 175px;
+}
+.card2 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 1325px;
+    top: 175px;
+}
+.card3 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 1025px;
+    top: 175px;
+}
+.card4 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 725px;
+    top: 175px;
+}
+.card5 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 1625px;
+    top: 625px;
+}
+.card6 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 1325px;
+    top: 625px;
+}
+.card7 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 1025px;
+    top: 625px;
+}
+.card8 {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: 725px;
+    top: 625px;
+}
+.card9 {
+    width: 650px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    right: -0px;
+    top: 400px;
+}
+.card.flipped {
+    transform: rotateY(180deg);
+}
+.card2.flipped {
+    transform: rotateY(180deg);
+}
+.card3.flipped {
+    transform: rotateY(180deg);
+}
+.card4.flipped {
+    transform: rotateY(180deg);
+}
+.card5.flipped {
+    transform: rotateY(180deg);
+}
+.card6.flipped {
+    transform: rotateY(180deg);
+}
+.card7.flipped {
+    transform: rotateY(180deg);
+}
+.card8.flipped {
+    transform: rotateY(180deg);
+}
+.card9.flipped {
+    transform: rotateY(180deg);
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.card-front, .card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.card-back p {
+    font-size: 23px;
+    background-color: black;
+}
+.card-back2 p {
+    font-size: 23px;
+    background-color: black;
+    width: 1000px;
+}
+.card-back {
+    background-color: black;
+    transform: rotateY(180deg);
+}
+.card-back2 {
+    background-color: black;
+    transform: rotateY(180deg);
+}
+#image-container2 {
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+    width: 100%; /* Ширина контейнера */
+    height: 200%; /* Высота контейнера */
+    display: inline-block
+}
+#image-container2 .men222 p {
+    position: absolute;
+    top: 10px;
+    right: 44%;
+    border: 1px solid red; 
+    color: #ff0000;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+	height: 50px;
+}
+.container2 input:hover .tooltip {
+    display: block;
+}
+#image-container2 {
+    position: relative;
+    display: inline-block;
+}
+#image-container2 img {
+            width: 100%; /* Ширина изображения */
+            height: auto; /* Автоматическая высота */
+}
+
+#image-container2 input {
+            position: absolute;
+            padding: 20px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+}
+#name {
+    top: 200px; /* Позиция по вертикали */
+    left: 10%; /* Позиция по горизонтали */
+    transform: translate(-50%, -50%); /* Центрирование */
+}
+#email {
+    top: 200px; /* Позиция по вертикали */
+    left: 30%; /* Позиция по горизонтали */
+    transform: translate(-50%, -50%); /* Центрирование */
+}
+#image-container2 textarea {
+    position: absolute;
+    padding: 5px; /* Отступы внутри textarea */
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: left; /* Выравнивание текста по левому краю */
+    top: 300px; /* Отступ от верхней границы */
+    left: 73px; /* Отступ от левой границы */
+    width: 600px; /* Ширина textarea */
+    height: 100px; /* Высота textarea */
+    resize: none; /* Запрет изменения размера */
+    overflow-y: auto; /* Прокрутка по вертикали */
+}
+#image-container2 button {
+    position: absolute;
+    padding: 5px; /* Отступы внутри textarea */
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: left; /* Выравнивание текста по левому краю */
+    top: 70%; /* Отступ от верхней границы */
+    left: 70%; /* Отступ от левой границы */
+    width: 250px; /* Ширина textarea */
+    height: 50px; /* Высота textarea */
+    resize: none; /* Запрет изменения размера */
+    overflow-y: auto; /* Прокрутка по вертикали */
+}
+.social-icons {
+    margin-top: 10px; /* Отступ сверху для иконок */
+}
+
+.social-icon {
+    width: 40px; /* Ширина иконки */
+    height: 40px; /* Высота иконки */
+    margin: 0 10px; /* Отступы между иконками */
+    transition: transform 0.3s; /* Плавный эффект при наведении */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Увеличиваем иконку при наведении */
+}
+.footer-content {
+    text-align: right;
+    margin-left: -100px;
+}
+#image-container2 .idit {
+    position: absolute;
+    font-size: 16px;
+    border-radius: 5px;
+    top: 80%; /* Отступ от верхней границы */
+}
+.footer-content {
+    position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+    width: 100%; /* Ширина контейнера */
+    height: 200%; /* Высота контейнера */
+    display: inline-block
+}
